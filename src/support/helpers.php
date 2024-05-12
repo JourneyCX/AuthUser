@@ -46,7 +46,7 @@
     if (!function_exists('canPublicAccess')) {
         function canPublicAccess($accessId = null)
         {
-            return authuser::isPublicAccess($accessId);
+            return AuthUser::isPublicAccess($accessId);
         }
     }
 
