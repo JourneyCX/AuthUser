@@ -1,0 +1,72 @@
+{
+    "name": "journeycx/authuser",
+    "description": "AuthUser - Laravel Routes Authorization Library",
+    "keywords": [
+        "laravel",
+        "laravel 5",
+        "authentication",
+        "routes authorization",
+        "authorization",
+        "cancan",
+        "can",
+        "authority",
+        "acl",
+        "role",
+        "permission",
+        "ability",
+        "allow",
+        "deny",
+        "security",
+        "laravel 5.1",
+        "laravel 5.2",
+        "laravel 5.3",
+        "laravel 5.4",
+        "laravel 5.5",
+        "laravel 5.6",
+        "laravel 5.7",
+        "laravel routes authority"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JournetCX Development",
+            "email": "development@journeycx.net"
+        },
+        {
+            "name": "Andy Hawkin"
+        },
+        {
+            "name": "Jordan Radkeb"
+        },
+        {
+            "name": "Pieter Heinstra"
+        }
+    ],
+    "support": {
+        "email": "support@ljourneycx.net",
+        "docs": "https://journeycx.github.io/AuthUser/",
+        "source": "https://github.com/journeycx/AuthUser"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": ">=5.1",
+        "journeycx/laratools": ">=1.2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "JourneyCX\\AuthUser\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "JourneyCX\\AuthUser\\AuthUserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
